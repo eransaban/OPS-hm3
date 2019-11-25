@@ -36,5 +36,5 @@ provision the web to install nginx and change index.html
 also create a script that will run hourly and rotate logs
 to s3 with folders sepereated by ips 
 
-and will attach to ALB 
+and will attach to ALB  
 
