@@ -42,7 +42,7 @@ and will attach to ALB
 in the webserver provision i'm downlaoding a script for rotating the logs 
 i'm pulling it from an s3 bucket that i upload the file to there
 
-the script that's uplodaed (script.sh) is in the git 
+the script that's uploaded (script.sh) is in the git 
 and should be added to a s3 bucket before running 
 
 
