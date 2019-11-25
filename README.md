@@ -47,4 +47,5 @@ and should be added to a s3 bucket before running
 
 ***
 also ssh allowed only from static ip
+need to change correct ip or allow all (0.0.0.0/0)
 
