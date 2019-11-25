@@ -72,8 +72,6 @@ resource "aws_instance" "webserver-1a" {
       "sudo cp /home/ec2-user/script.sh /etc/cron.hourly/script.sh",
       "sudo yum install nginx -y",
       "sudo service nginx start",
-      "sudo yum install nginx -y",
-      "sudo service nginx start",
       "echo '<html><head><title>OpsSchool Server 1 !!!</title></head><body style=\"background-color:#0F00F0\"><p style=\"text-align: center;\"><span style=\"color:#FF00FF;\"><span style=\"font-size:28px;\">OpsSchool Server 1 !!!</span></span></p></body></html>' | sudo tee /usr/share/nginx/html/index.html",
       "sudo run-parts /etc/cron.hourly"
     ]
@@ -110,8 +108,7 @@ resource "aws_instance" "Webserver-1b" {
       "sudo cp /home/ec2-user/script.sh /etc/cron.hourly/script.sh",
       "sudo yum install nginx -y",
       "sudo service nginx start",
-      "sudo yum install nginx -y",
-      "sudo service nginx start",
+
       "echo '<html><head><title>OpsSchool Server 2 !!!</title></head><body style=\"background-color:#FF0000\"><p style=\"text-align: center;\"><span style=\"color:#FFFFFF;\"><span style=\"font-size:28px;\">OpsSchool Server 2 !!!</span></span></p></body></html>' | sudo tee /usr/share/nginx/html/index.html",
       "sudo run-parts /etc/cron.hourly"
     ]
