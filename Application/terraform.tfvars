@@ -1,3 +1,3 @@
-key_name = "erankeys"
+key_name = "*"
 
-private_key_path = "C:\\opsschool\\erankeys.pem"
+private_key_path = "*"
